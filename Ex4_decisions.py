@@ -120,7 +120,14 @@ else:
 # - Add another condition to give a special message if the answer is partially correct.
 
 # Write your extension code below:
+question = int(input("How many region does Turkiye have? "))
 
+if question ==7:
+    print("Well done! That is True")
+elif question >1 and question <7:
+    print("Not exactly, but you are close!")
+else:
+    print("OH! no! Please try again")
 
 # -------------------------------------------
 # Submitting Your Work
