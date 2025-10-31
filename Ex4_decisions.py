@@ -28,6 +28,9 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
+userNumber = int(input("write a number!  "))
+if userNumber <=10:
+    print("You are not eligible!")
 
 
 # -------------------------------------------
@@ -49,7 +52,8 @@
 
 # Write your code below:
 
-
+else:
+    print("Welcome You are eligible!")
 # -------------------------------------------
 # Task 3: Multiple conditions
 # -------------------------------------------
@@ -72,7 +76,14 @@
 
 # Write your code below:
 
+doorNumber = int(input("Write your door number please! "))
 
+if doorNumber < 123:
+    print("You live in Theatre Street")
+elif doorNumber >= 123 and doorNumber <= 153:
+    print("You live in Susame Street")
+else:
+    print("You live out of Airport Area")
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
@@ -109,7 +120,14 @@
 # - Add another condition to give a special message if the answer is partially correct.
 
 # Write your extension code below:
+question = int(input("How many region does Turkiye have? "))
 
+if question ==7:
+    print("Well done! That is True")
+elif question >1 and question <7:
+    print("Not exactly, but you are close!")
+else:
+    print("OH! no! Please try again")
 
 # -------------------------------------------
 # Submitting Your Work
